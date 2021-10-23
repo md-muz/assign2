@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+
+
+}
+
+
+
+.top{
+height: 33vh;
+padding: 30px;
+}
+.mid_bott{
+height: 67vh;
+}
+.middle{
+height: 50%;
+padding: 30px;
+background-color: rgb(43, 179, 177);
+color: rgb(252, 255, 255);
+}
+.bottom{
+height: 50%;
+padding: 30px;
+background-color: rgb(74, 190, 189);
+color: rgb(215, 233, 233);
+line-height: 1.5;
+}
+
+.top_body1,.top_body2{
+    line-height: 1.5;
+    font-size: 0.9rem;
+    color:rgb(158, 164, 170);
+}
+
+.top_hd{
+    font-size: 1.3rem;
+    font-weight:700;
+    color: rgb(43, 179, 177);
+    
+}
+
+.sub_hd{
+    color:hsl(71, 73%, 54%);
+    font-weight: 700;
+}
+
+
+.mid_hd{
+    font-size: 1.1rem;
+    font-weight: 400;
+    
+}
+.bott_hd{
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+}
+
+.dollar{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.button{
+    height: 50px;
+    width: 300px;
+    border-radius: 7px;
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    color: hsl(204, 43%, 93%);
+    box-shadow: 1px 1px hsl(71, 51%, 44%);
+    
+}
+.sign_up{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+@media screen and (min-width:1440px)
+{
+
+    html{
+        font-size: 20px;
+    }
+    .top{
+        height: 50vh;
+        padding: 50px;
+
+    }
+
+    .mid_bott{
+         height: 50vh;
+         width: 100vw;
+    }
+
+    .middle{
+        padding: 50px;
+        height: 100%;
+        width: 50%;
+        float: left;
+    }
+    .bottom{
+        padding: 50px;
+        height: 100%;
+        width: 50%;
+        display: inline-block;
+    }
+    
+    .top_body1::after{
+        content: "\a";
+        white-space:pre;
+
+    }
+    
+}
